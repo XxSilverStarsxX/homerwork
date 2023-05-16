@@ -1,0 +1,18 @@
+
+let sort1 = [2, -4, 67, -5, 9];
+
+for (let n = 0; n < sort1.length; n++){
+    for (let k = 0; k < sort1.length; k++){
+        if (sort1[k] > sort1[k + 1]){
+            let int  = sort1[k];
+            sort1[k] = sort1[k + 1];
+            sort1[k + 1] = int;
+        }
+    }
+}
+
+
+
+
+
+console.log(sort1)
